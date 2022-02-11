@@ -1,0 +1,221 @@
+html,body {
+    margin: 0 0;
+    background-color: rgb(60,28,77);
+    scroll-behavior: smooth; 
+  }
+  @media screen and (max-width: 480px) {
+    body {
+      display: block;
+      float: left;
+    }
+  }
+  
+  
+  #arrow {
+    text-decoration:none;
+    color: white;
+  
+  }
+  
+  #bg {
+    background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    position: relative;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  
+  #html {
+    height: 50px; 
+    width: 50px;
+  }
+  
+  #css {
+    height: 50px; 
+    width: 50px;
+  }
+  
+  #js {
+     height: 50px; 
+    width: 50px;
+  }
+  
+  #react {
+    height: 50px;
+    width: 50px;
+  }
+  
+  #github {
+    height: 50px;
+    width: 50px;
+  }
+  
+  #welcome-section {
+    width: 100%;
+    height: 100vh; 
+    display: grid;
+  }
+  
+  #welcome {
+    margin: 200px auto;
+    width: 20%;
+    color: white;
+    font-family: merriweather;
+    text-align: center;
+    border: 3px white solid;
+    padding: 20px;
+  }
+  
+  #welcome-section h1 {
+    margin: 0px;
+    font-weight: 900;
+  }
+  
+  #locator, #storefront {
+    color:white;
+    font-size: 50px;
+    margin: 0px auto;
+  }
+  
+  
+  
+  #navbar {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(25,25,25, .5);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    position: fixed;
+    z-index: 2;
+  }
+  
+  #navbar a {
+    margin-left: 40px;
+    margin-right: 40px;
+    text-decoration: none;
+    text-weight: light;
+    font-family: merriweather;
+    color: white;
+  }
+  
+  .material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+    margin: 0px;
+  }
+  
+  
+  
+  #project-box {
+    display: flex;
+    margin-top: 100px;
+    justify-content: flex-start;
+    
+  }
+  
+  
+  
+  #projects {
+    width: 100%;
+    position: relative;
+    height: 750px;
+    background-color: rgba(195, 93, 130, .7);
+    padding: 20px;
+    font-family: merriweather;
+    
+  }
+  
+  #projects h1 {
+    font-weight: 900;
+  
+    font-size: 36px;
+    margin-top: 0px;
+  
+  }
+  
+  #projects h3 {
+  
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  
+  
+  #text {
+    font-family: merriweather;
+    width: 50%;
+    color: white;
+    margin-left: 15%;
+  }
+  
+  #text2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  
+  #tile1, #tile2{
+    height: 300px;
+    width: 60%;
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    color: white;  
+    margin: 0px 200px;
+  }
+  
+  #tile1 a, #tile2 a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  footer {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(14,33,65);
+    color: white;
+    font-family: merriweather;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  footer a {
+    text-decoration: none;
+    margin: 10px 10px;
+    color: white;
+  }
+  
+  footer img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+  
