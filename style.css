@@ -20,17 +20,32 @@ html,body {
 
   #bg {
     background-image: url("https://images.pexels.com/photos/1629236/pexels-photo-1629236.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: repeat-y;
     position: relative;
-    height: 100vh;
+    height: 410vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    transition: opacity 3s ease-in;
-    opacity: 1;
+    overflow-y: hidden;
+
   }
   #bg.toggle-background{
     opacity: 0;
+  }
+
+
+  #about-me {
+    width: 50%;
+    height: 40vh;
+    background-color: rgba(127, 68, 78,.8);
+    position: relative;
+    color: white;
+    font-family: merriweather;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 15px;
   }
 
 
@@ -137,13 +152,16 @@ html,body {
     z-index: 1;
   }
   
-  
+  .project-tile {
+    margin-top: 25vh;
+  }
+
+
   
   #project-box {
     display: flex;
-    margin-top: 100px;
     justify-content: flex-start;
-    
+    position: relative;
   }
   
   
@@ -151,9 +169,10 @@ html,body {
   #projects {
     width: 100%;
     position: relative;
-    height: fit-content;
+    height: 100%;
     padding: 20px;
     font-family: merriweather;
+    overflow: hidden;
     
   }
   
@@ -186,7 +205,7 @@ html,body {
   #text2 {
     display: flex;
     justify-content: space-around;
-    margin: 100px;
+    margin: 50px;
     padding: 10px;
     border-radius: 10px;
   }
@@ -205,7 +224,7 @@ html,body {
     opacity: 0;
     transition: opacity 1s ease-in;
     padding: 15px;
-    background-color: rgb(44, 70, 109, .5);
+    background-image: linear-gradient(to bottom right, rgba(44, 70,109, .5), #7f444e);
   }
 
  
@@ -214,7 +233,7 @@ html,body {
   }
 
   .tile:hover {
-    transform: scale(1.05,1.05);
+    transform: scale(1.025,1.025);
   }
   
   .tile a {
@@ -247,6 +266,7 @@ html,body {
     display: flex;
     justify-content: center;
     padding: 20px;
+    position: absolute;
   }
   
   footer a {
@@ -261,3 +281,6 @@ html,body {
     border-radius: 50%;
   }
   
+  body {
+    overflow-y: hidden;
+  }

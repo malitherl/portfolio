@@ -1,6 +1,6 @@
 
 let tiles = document.querySelectorAll('.tile')
-let background = document.querySelector("#welcome-section");
+let background = document.querySelector("#bg");
 const options = {
     threshold: .6,
 };
@@ -22,5 +22,5 @@ const observer = new IntersectionObserver(
 })
 
 const option = {
-    threshold: 0,
+    threshold: .2,
 }
