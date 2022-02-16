@@ -202,10 +202,10 @@ html,body {
     margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
-    border: 1px white solid;
     opacity: 0;
     transition: opacity 1s ease-in;
     padding: 15px;
+    background-color: rgb(44, 70, 109, .5);
   }
 
  
@@ -213,6 +213,9 @@ html,body {
     opacity: 1;
   }
 
+  .tile:hover {
+    transform: scale(1.05,1.05);
+  }
   
   .tile a {
     text-decoration: none;
@@ -238,7 +241,7 @@ html,body {
   footer {
     height: 50px;
     width: 100%;
-    background-color: rgb(14,33,65);
+    background-color: rgb(44, 70, 109, .5);
     color: white;
     font-family: merriweather;
     display: flex;
